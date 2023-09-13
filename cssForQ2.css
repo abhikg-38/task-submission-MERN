@@ -1,0 +1,34 @@
+.c1 {
+    padding-bottom: 0px;
+    width: 15%;
+    border: 1px solid black;
+    position: fixed;
+    display: inline-block;
+}
+.nvb_top{
+    background-color: lightblue;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+.nvb_top ul {
+    list-style-type: none;
+    padding: 0;
+}
+.nvb_top ul li {
+    list-style-type: none;
+    padding: 7px;
+}
+.nvb_top ul li:hover {
+    background-color: yellow;
+}
+.nvb_top ul li a {
+    text-decoration: none;
+    color: blue;
+}
+.nvb_top ul li a:hover {
+    text-decoration: none;
+    color: white;
+}
+p {
+    margin-left: 25%;
+}

@@ -1,0 +1,33 @@
+.tab {
+    background-color: lightblue;
+    border: 1px solid black;
+    border-radius: 10px;
+  }
+
+  .fn1, .ln1 {
+    border: 1px solid black;
+    border-radius: 10px;
+    width: 200px;
+    text-align: center;
+  }
+  
+  .age1 {
+    border: 1px solid black;
+    border-radius: 10px;
+    width: 100px;
+    text-align: center;
+  }
+  
+  .fn, .ln {
+    border: 1px solid black;
+    border-radius: 10px;
+    width: 200px;
+    text-align: left;
+  }
+  
+  .age {
+    border: 1px solid black;
+    border-radius: 10px;
+    width: 100px;
+    text-align: left;
+  }

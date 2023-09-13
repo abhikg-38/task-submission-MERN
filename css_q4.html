@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>CSS TASK - Q4</title>
+<link rel="stylesheet" href="cssForQ4.css">
+</head>
+<body>
+<div id="sidenv" class="sidenav">
+  <a href="#" id="about">About</a>
+  <a href="#" id="blog">Blog</a>
+  <a href="#" id="projects">Projects</a>
+  <a href="#" id="contact">Contact</a>
+</div>
+<div id="main">
+  <span id="open_nav" onclick="open_navigation()">&#9776;</span>
+  <h2>Hoverable Sidenav Buttons</h2>
+  <p>Hover over the button on the top left to open the side navigation menu.</p>
+</div>
+<script>
+function open_navigation(){
+  document.getElementById("sidenv").style.width = "250px";
+  document.getElementById("main").style.marginLeft = "250px";
+}
+
+function close_navigation() {
+  document.getElementById("sidenv").style.width = "0";
+  document.getElementById("main").style.marginLeft = "0";
+}
+</script>
+</body>
+</html>

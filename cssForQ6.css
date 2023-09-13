@@ -1,0 +1,47 @@
+.img{
+    height: 225px;width: 225px;
+    border-radius: 50%;overflow: hidden;
+    margin-left: 40vw;;
+}
+.l{
+    display: block;padding-left: 35vw;
+    padding-top: 10px;font-weight: bold;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+#un, #pwd{
+    margin-left: 35vw; width: 30vw;padding: 5px;
+    border: 0.1px solid rgb(189, 177, 177);border-radius: 0;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    display: block;
+}
+#login{
+    width: 395px;margin-left: 35vw;
+    border: 0px solid black;border-radius: 0;
+    background-color: rgb(52, 177, 52);
+    color: white;
+    padding: 5px 0px 5px 0px;
+    margin-top: 10px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    display: block;
+}
+#c1{
+    margin-left: 35vw;margin-top: 10px;
+}
+#cl{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+#f_end{
+    width: 30vw;margin-left: 450px;
+    margin-top: 20px;
+}
+#cancel{
+    padding: 7px;background-color: rgb(223, 59, 59);
+    color: white;
+    border: 0px solid red;
+    border-radius: 5px;margin-left: 35vw;
+    margin-top: 10px;font-family:Arial, Helvetica, sans-serif;
+}
+#forgot_pw{
+    margin-left: 220px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}

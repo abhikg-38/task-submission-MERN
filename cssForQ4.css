@@ -1,0 +1,29 @@
+#sidenv{
+    height: 100%;width: 0;
+    position: fixed;z-index: 1;
+    left: 0;background-color: #333;
+    overflow-x: hidden;transition: 0.3s;
+    padding-top: 60px;
+  }
+#sidenv a {
+    padding: 15px 25px;text-decoration: none;
+    font-size: 24px;color: #f2f2f2;
+    display: block;transition: 0.2s;
+}
+#sidenv a:hover {
+    color: #04AA6D;
+}
+#main {
+    transition: margin-left .5s;
+    padding: 16px;
+}
+#open_nav{
+    position: absolute;
+    left: 10px;top: 10px;
+    font-size: 30px;cursor: pointer;
+    color: #f2f2f2;
+}
+#open_nav:hover {
+    color: #04AA6D;
+}
+  

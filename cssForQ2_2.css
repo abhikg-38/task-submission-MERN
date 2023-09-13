@@ -1,0 +1,34 @@
+.nvb_horz {
+    border: 1px solid black;
+    width: 20%;
+    padding: 0;
+    position: fixed;
+}
+
+.nvb_horz ul {
+    list-style-type: none;
+    padding: 2px;
+}
+
+.nvb_horz ul li {
+    display: inline;
+}
+
+.nvb_horz ul li a {
+    text-decoration: none;color: blue;
+}
+
+.nvb_horz ul li a:hover {
+    text-decoration: none;color: white;
+}
+
+.nvb_horz ul div:hover {
+    background-color: rgb(153,137,173);
+}
+
+.lb {
+    display: inline-block;
+    background-color: rgb(240, 251, 222);
+    border-right: 1.5px solid blue;
+    padding: 5px;
+}

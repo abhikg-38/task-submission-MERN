@@ -1,0 +1,28 @@
+.tab{
+    border-collapse: collapse;
+}
+.head{
+    background-color: #409a6a;color: white;
+    text-align: left;font-family:'Times New Roman', Times, serif;
+}
+.grey{
+    background-color: rgb(237, 232, 232);text-align: left;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.w{
+    background-color: white;text-align: left;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.comp1{  
+    padding: 10px;  
+    width: 400px;
+}
+.contact1,.country1{
+    width: 200px;padding: 10px; 
+}
+.comp{
+    width: 400px;padding: 10px; 
+}
+.contact,.country {
+    width: 200px;padding: 10px; 
+}

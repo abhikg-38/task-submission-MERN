@@ -1,0 +1,28 @@
+body {
+    background-color: rgb(201, 201, 27);
+    font-family:'Times New Roman', Times, serif;
+}
+.nvb_vertical{
+    margin-top: 30px;display: inline-block;
+    width: 20%;height: 10%;
+}
+.nvb_vertical ul {
+    list-style-type: none;
+}
+.nvb_vertical ul li {
+    padding: 5px; margin-bottom: 9px;
+    background-color: white;
+    border-right: 15px solid black;width: 55%;
+}
+.nvb_vertical ul li a {
+    text-decoration: none;
+}
+.text{
+    display: inline-block;position: absolute;
+    margin-left: 100px; width: 35%;
+    color: rgb(136, 19, 136);
+}
+#l{
+    color: rgb(136, 19, 136);
+    border-style: dotted; 
+}
